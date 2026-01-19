@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0B1220" />
+
+    <title>АНИКО Цемент — цемент и сухие смеси с доставкой</title>
+    <meta
+      name="description"
+      content="АНИКО Цемент: цемент, сухие строительные смеси и сопутствующие материалы. Помогаем подобрать марку, считаем объём, организуем доставку."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="АНИКО Цемент — цемент и сухие смеси" />
+    <meta
+      property="og:description"
+      content="Цемент и сухие смеси. Расчёт объёма, консультация, доставка."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/main.js" defer></script>
+
+    <!-- JSON-LD (минимальная заготовка, заполните контакты в main.js) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "АНИКО Цемент",
+        "url": "https://example.com",
+        "telephone": "+7XXXXXXXXXX",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "RU",
+          "addressLocality": "Воскресенск",
+          "streetAddress": "Усадище, ул. Воронцова"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <header class="header" id="top">
+      <div class="container header__row">
+        <a class="brand" href="#top" aria-label="АНИКО Цемент">
+          <span class="brand__mark" aria-hidden="true">
+  <img class="brand__logo" src="/logo.svg" alt="АНИКО" />
+</span>
+          <span class="brand__text">
+            <span class="brand__name">АНИКО</span>
+            <span class="brand__tag">Цемент и сухие смеси</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-controls="nav" aria-expanded="false">
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="sr-only">Меню</span>
+        </button>
+
+        <nav class="nav" id="nav">
+          <a href="#products">Продукция</a>
+          <a href="#delivery">Доставка</a>
+          <a href="#faq">Вопросы</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+
+        <div class="header__cta">
+          <a class="chip" id="headerPhone" href="tel:+70000000000">+7 (000) 000‑00‑00</a>
+          <a class="btn btn--primary" href="#lead">Получить расчёт</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="badge">Поставки цемента и сухих смесей</p>
+            <h1 class="h1">Надёжный цемент и смеси для стройки — без лишней суеты</h1>
+            <p class="lead">
+              Поможем выбрать марку, посчитаем объём, подготовим КП и организуем доставку.
+              Работаем с частными и корпоративными заказами.
+            </p>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#lead">Оставить заявку</a>
+              <a class="btn btn--ghost" id="heroCall" href="tel:+70000000000">Позвонить</a>
+            </div>
+
+            <div class="hero__trust">
+              <div class="stat">
+                <div class="stat__num">24/7</div>
+                <div class="stat__label">заявки с сайта</div>
+              </div>
+              <div class="stat">
+                <div class="stat__num">Склад</div>
+                <div class="stat__label">быстрый самовывоз</div>
+              </div>
+              <div class="stat">
+                <div class="stat__num">Доставка</div>
+                <div class="stat__label">по МО и рядом</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__card" aria-label="Коротко о компании">
+            <div class="glass">
+              <h2 class="h2">Что вы получаете</h2>
+              <ul class="check">
+                <li>Консультацию по маркам и применению</li>
+                <li>Расчёт количества мешков/тонн под ваш объём</li>
+                <li>Подбор смеси под задачу (штукатурка, кладка, пол и т.д.)</li>
+                <li>Доставку или самовывоз</li>
+              </ul>
+              <div class="glass__footer">
+                <a class="link" href="#products">Смотреть продукцию →</a>
+              </div>
+            </div>
+            <div class="hero__noise" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCTS -->
+      <section class="section" id="products">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">Продукция</h2>
+            <p class="muted">
+              Подскажем, что подойдёт именно вам. Цены зависят от объёма, марки и логистики.
+            </p>
+          </div>
+
+          <div class="grid cards">
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">⛓️</div>
+              <h3 class="h3">Цемент</h3>
+              <p class="muted">Для бетона, стяжек, растворов, кладки и монтажных работ.</p>
+              <ul class="bullets">
+                <li>Подберём марку под задачу</li>
+                <li>Согласуем фасовку и объём</li>
+              </ul>
+              <button class="btn btn--small" data-open-lead data-product="Цемент">Запросить цену</button>
+            </article>
+
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">🧱</div>
+              <h3 class="h3">Сухие строительные смеси</h3>
+              <p class="muted">Кладочные, штукатурные, выравнивающие, монтажные.</p>
+              <ul class="bullets">
+                <li>Марки: М‑100 / М‑150 / М‑200 / М‑300</li>
+                <li>Поможем рассчитать расход</li>
+              </ul>
+              <button class="btn btn--small" data-open-lead data-product="Сухие смеси">Запросить цену</button>
+            </article>
+
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">🧰</div>
+              <h3 class="h3">Смеси для отделки</h3>
+              <p class="muted">Клей для плитки, шпаклёвки, штукатурки, смеси для пола.</p>
+              <ul class="bullets">
+                <li>Подберём под основание и слой</li>
+                <li>Рекомендации по подготовке поверхности</li>
+              </ul>
+              <button class="btn btn--small" data-open-lead data-product="Клей / шпаклёвка / штукатурка">Запросить цену</button>
+            </article>
+          </div>
+
+          <div class="note">
+            <div class="note__title">Нужно быстро?</div>
+            <div class="note__text">Оставьте телефон — перезвоним и уточним задачу за 2–3 минуты.</div>
+            <a class="btn btn--primary" href="#lead">Оставить номер</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- DELIVERY -->
+      <section class="section section--alt" id="delivery">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">Доставка и самовывоз</h2>
+            <p class="muted">
+              Организуем доставку по Московской области и соседним направлениям. Самовывоз — по договорённости.
+            </p>
+          </div>
+
+          <div class="grid two">
+            <div class="panel">
+              <h3 class="h3">Как мы работаем</h3>
+              <ol class="steps">
+                <li>
+                  <strong>Заявка</strong>
+                  <span>Вы оставляете контакты и задачу (объём/марка/адрес).</span>
+                </li>
+                <li>
+                  <strong>Подбор и расчёт</strong>
+                  <span>Считаем количество, согласуем условия и сроки.</span>
+                </li>
+                <li>
+                  <strong>Поставка</strong>
+                  <span>Доставляем или готовим самовывоз со склада.</span>
+                </li>
+              </ol>
+              <div class="panel__cta">
+                <a class="btn btn--primary" href="#lead">Получить расчёт</a>
+                <a class="btn btn--ghost" href="#contacts">Посмотреть контакты</a>
+              </div>
+            </div>
+
+            <div class="panel">
+              <h3 class="h3">Ориентир на карте</h3>
+              <p class="muted">
+                Скоро будет добавлена карта (Яндекс/Google).
+              </p>
+              <div class="map" role="img" aria-label="Карта проезда (заглушка)">
+                <div class="map__placeholder">
+                  <div class="map__pin" aria-hidden="true"></div>
+                  <div>
+                    <div class="map__title">АНИКО Цемент</div>
+                    <div class="map__text" id="mapText">Адрес будет подставлен из настроек</div>
+                  </div>
+                </div>
+              </div>
+              <p class="tiny muted">
+                Всегда актуальные данные.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">Вопросы и ответы</h2>
+            <p class="muted">Самое частое — коротко. Остальное уточним по телефону.</p>
+          </div>
+
+          <div class="faq">
+            <details class="faq__item">
+              <summary>Как быстро вы отвечаете на заявку?</summary>
+              <div class="faq__body">
+                Обычно в рабочее время отвечаем быстро. Ночью/в выходные — в ближайшее время после открытия.
+              </div>
+            </details>
+
+            <details class="faq__item">
+              <summary>Поможете подобрать марку и объём?</summary>
+              <div class="faq__body">
+                Да. Опишите задачу (стяжка, бетон, кладка, штукатурка), площадь/объём и условия — рассчитаем расход.
+              </div>
+            </details>
+
+            <details class="faq__item">
+              <summary>Можно ли забрать самовывозом?</summary>
+              <div class="faq__body">
+                Да. Уточните позицию и объём — согласуем время и подготовим к отгрузке.
+              </div>
+            </details>
+
+            <details class="faq__item">
+              <summary>Есть ли документы на продукцию?</summary>
+              <div class="faq__body">
+                По запросу предоставляем паспорта/сертификаты и информацию по хранению и применению.
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTS + FORM -->
+      <section class="section section--alt" id="contacts">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">Контакты</h2>
+            <p class="muted">Оставьте заявку — мы уточним детали и свяжемся с вами.</p>
+          </div>
+
+          <div class="grid two">
+            <div class="panel">
+              <h3 class="h3">Связаться</h3>
+
+              <div class="contact">
+                <div class="contact__row">
+                  <div class="contact__label">Телефон</div>
+                  <div class="contact__value">
+                    <div class="phones" id="contactPhones" aria-label="Телефоны"></div>
+                  </div>
+                </div>
+
+                <div class="contact__row">
+                  <div class="contact__label">Email</div>
+                  <div class="contact__value">
+                    <a class="link" id="contactEmail" href="mailto:info@example.com">info@example.com</a>
+                  </div>
+                </div>
+
+                <div class="contact__row">
+                  <div class="contact__label">Адрес</div>
+                  <div class="contact__value" id="contactAddress">Адрес будет подставлен из настроек</div>
+                </div>
+
+                <div class="contact__row">
+                  <div class="contact__label">Режим</div>
+                  <div class="contact__value" id="contactHours">Пн–Пт: 09:00–18:00</div>
+                </div>
+              </div>
+
+              <div class="divider"></div>
+
+              <div class="panel__cta">
+                <a class="btn btn--primary" id="contactCall" href="tel:+70000000000">Позвонить</a>
+                <a class="btn btn--ghost" href="#lead">Написать</a>
+              </div>
+
+              <p class="tiny muted">
+                Нажимая «Отправить заявку», вы соглашаетесь с
+                <button class="link-like" data-open-modal="privacy">политикой конфиденциальности</button>
+                и
+                <button class="link-like" data-open-modal="consent">условиями обработки персональных данных</button>.
+              </p>
+            </div>
+
+            <div class="panel" id="lead">
+              <h3 class="h3">Заявка</h3>
+              <p class="muted">Заполните — и мы сделаем расчёт / КП.</p>
+
+              <form class="form" id="leadForm">
+                <input type="text" name="website" autocomplete="off" tabindex="-1" class="hp" aria-hidden="true" />
+
+                <label class="field">
+                  <span>Имя*</span>
+                  <input name="name" required minlength="2" maxlength="80" placeholder="Как к вам обращаться" />
+                </label>
+
+                <label class="field">
+                  <span>Телефон*</span>
+                  <input
+                    name="phone"
+                    required
+                    inputmode="tel"
+                    placeholder="+7 (___) ___‑__‑__"
+                    autocomplete="tel"
+                  />
+                </label>
+
+                <label class="field">
+                  <span>Email</span>
+                  <input name="email" type="email" placeholder="Для КП (необязательно)" autocomplete="email" />
+                </label>
+
+                <label class="field">
+                  <span>Что нужно</span>
+                  <input name="product" placeholder="Например: цемент М... / смесь М-..." maxlength="120" />
+                </label>
+
+                <label class="field">
+                  <span>Комментарий</span>
+                  <textarea name="message" rows="4" placeholder="Объём, адрес доставки, сроки" maxlength="2000"></textarea>
+                </label>
+
+                <label class="checkline">
+                  <input name="consent" type="checkbox" required />
+                  <span>
+                    Даю согласие на обработку персональных данных
+                  </span>
+                </label>
+
+                <button class="btn btn--primary" type="submit" id="submitBtn">Отправить заявку</button>
+
+                <div class="form__status" id="formStatus" role="status" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__row">
+        <div class="footer__left">
+          <div class="footer__brand">АНИКО Цемент</div>
+          <div class="tiny muted">© <span id="year"></span> Все права защищены.</div>
+        </div>
+
+        <div class="footer__right">
+          <button class="link-like" data-open-modal="privacy">Политика</button>
+          <button class="link-like" data-open-modal="consent">Согласие</button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MODALS -->
+    <dialog class="modal" id="modal-privacy" aria-label="Политика конфиденциальности">
+      <div class="modal__head">
+        <div class="modal__title">Политика конфиденциальности</div>
+        <button class="iconbtn" data-close-modal aria-label="Закрыть">✕</button>
+      </div>
+      <div class="modal__body">
+        <p>
+          Эта страница — шаблон. Текст следует адаптировать под ваши фактические процессы.
+          Рекомендуется согласовать с юристом.
+        </p>
+        <p>
+          Мы обрабатываем персональные данные, которые вы добровольно отправляете через форму:
+          имя, телефон, email и сообщение. Используем их только для связи с вами и подготовки предложения.
+        </p>
+        <p>
+          Хранение заявок: в защищённой системе/файле, доступ ограничен. Срок хранения — по необходимости
+          для обработки обращений и исполнения договорённостей.
+        </p>
+      </div>
+      <div class="modal__foot">
+        <button class="btn btn--ghost" data-close-modal>Закрыть</button>
+      </div>
+    </dialog>
+
+    <dialog class="modal" id="modal-consent" aria-label="Согласие на обработку персональных данных">
+      <div class="modal__head">
+        <div class="modal__title">Согласие на обработку ПДн</div>
+        <button class="iconbtn" data-close-modal aria-label="Закрыть">✕</button>
+      </div>
+      <div class="modal__body">
+        <p>
+          Отправляя заявку, вы подтверждаете согласие на обработку персональных данных
+          (имя, телефон, email, текст обращения) для целей обратной связи, расчёта и подготовки коммерческого предложения.
+        </p>
+      </div>
+      <div class="modal__foot">
+        <button class="btn btn--ghost" data-close-modal>Закрыть</button>
+      </div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>
